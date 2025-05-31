@@ -1,0 +1,26 @@
+{
+  "name": "laboratorio_ms",
+  "version": "1.0.0",
+  "description": "laboratorio",
+  "main": "index.js",
+  "scripts": {
+    "test": "laboratorio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TauanGramacho/laboratorio_MS.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "tauan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TauanGramacho/laboratorio_MS/issues"
+  },
+  "homepage": "https://github.com/TauanGramacho/laboratorio_MS#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}

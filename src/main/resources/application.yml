@@ -1,0 +1,18 @@
+server:
+  port: 8081 # Escolha uma porta diferente da padrão (8080)
+spring:
+  application:
+    name: laboratorio-service # Nome do seu microsserviço para o Eureka
+  datasource:
+    url: jdbc:h2:mem:laboratorio_db
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka # Endereço do seu servidor Eureka
